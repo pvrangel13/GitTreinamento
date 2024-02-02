@@ -1,5 +1,5 @@
 # Start Wars Repo
 
-![./mando.png](Como deve ser!)
+![Como deve ser!](./mando.png)
 
 Este repositório serve de exemplo para o curso de Git.
