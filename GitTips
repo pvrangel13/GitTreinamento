@@ -7,10 +7,39 @@ git config user.email "email@outlook.com"
 # Iniciar repositório
 git init
 
+# Verificar se precisa de alguma ação
+git status
 
+# Adicionar novo arquivo ao stage
+git add GitTips
+
+# Comitar arquivo adicionado ao stage
+git commit -m "Levando arquivo de dicas para o repo"
+
+# Enviar modificação para repositório remoto
+git push -u origin main
 
 # Verificar logs
 git log
 
 # Entrar em um commit especifico
 git checkout hash_do_resultado_git_log
+
+# Retornar para a branch main
+git checkout main
+
+# Exibir o que foi adicionado ou removido no arquivo
+git diff
+
+# Descartar mudanças em um arquivo em que não foi para o stage (git add)
+git checkout -- arquivo
+git restore arquivo
+
+# Descartar mudanças em um arquivo que já foram para stage (git add)
+git checkout HEAD -- arquivo
+
+# Desfazer um commit
+git revert hash_commit
+
+
+
