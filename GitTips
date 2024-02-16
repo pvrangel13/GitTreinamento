@@ -1,0 +1,16 @@
+# Inserir usuário corrente nas cofigurações do git
+git cofig user.name "Paulo Rangel"
+
+# Inserir e-mail
+git config user.email "email@outlook.com"
+
+# Iniciar repositório
+git init
+
+
+
+# Verificar logs
+git log
+
+# Entrar em um commit especifico
+git checkout hash_do_resultado_git_log
