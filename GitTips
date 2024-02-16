@@ -35,7 +35,7 @@ git diff
 git checkout -- arquivo
 git restore arquivo
 
-# Descartar mudanças em um arquivo que já foram para stage (git add)
+# Descartar mudanças em um arquivo que já foram para stage (git add ou commit não pode ter efetuado push)
 git checkout HEAD -- arquivo
 
 # Desfazer um commit
