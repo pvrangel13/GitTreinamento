@@ -41,5 +41,8 @@ git checkout HEAD -- arquivo
 # Desfazer um commit
 git revert hash_commit
 
+# Resetar o repositório para um determinado commit
+git reset hash_commit
+
 
 
